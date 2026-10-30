@@ -60,3 +60,23 @@ Para el desarrollo del sistema se utilizaron las siguientes tecnologías:
 **SQLite:** sistema gestor de base de datos utilizado para almacenar la información de la aplicación. 
 
 **JDBC:** tecnología utilizada para establecer la conexión y realizar operaciones entre Java y la base de datos.
+
+## Arquitectura del sistema
+
+El sistema está organizado mediante una arquitectura por capas, con el propósito de separar las responsabilidades de la interfaz gráfica, el procesamiento de la información y el acceso a la base de datos. La comunicación entre los componentes sigue el siguiente flujo:
+
+**UI → DTO → Controlador → Servicio → DAO → SQLite**
+
+Donde cada componente cumple una función específica:
+
+**UI (Interfaz de usuario):** presenta las ventanas, formularios y elementos con los que interactúa el usuario.
+
+**DTO (Data Transfer Object):** permite transportar información entre las distintas capas de la aplicación.
+
+**Controlador:** recibe las solicitudes provenientes de la interfaz y coordina su procesamiento.
+
+**Servicio:** contiene la lógica de negocio y las operaciones principales del sistema.
+
+**DAO (Data Access Object):** gestiona las operaciones de consulta, inserción, actualización y eliminación de información.
+
+**SQLite:** almacena la información persistente de la aplicación mediante conexiones JDBC.
