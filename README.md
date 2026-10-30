@@ -47,4 +47,16 @@ partidos.
 
 **Gestión de pagos**: registro, consultar pagos por equipo o jornada, editar pagos.
 
-**Generación de reportes en PDF:** plantilla de jugadores por categoría, jugadores sancionados por torneo, roles de juego, resultados por jornada, tabla de posiciones y estados de cuenta.
+**Generación de reportes en PDF:** plantilla de jugadores por categoría, jugadores sancionados por torneo, roles de juego, partidos por equipo o jornada, resultados por jornada, tabla de posiciones y estados de cuenta por equipo y torneo.
+
+## Tecnologías utilizadas
+
+Para el desarrollo del sistema se utilizaron las siguientes tecnologías:
+
+**Java 17:** lenguaje de programación utilizado para desarrollar la lógica de la aplicación.
+ 
+**Java Swing:** biblioteca utilizada para construir la interfaz gráfica de escritorio.
+ 
+**SQLite:** sistema gestor de base de datos utilizado para almacenar la información de la aplicación. 
+
+**JDBC:** tecnología utilizada para establecer la conexión y realizar operaciones entre Java y la base de datos.
