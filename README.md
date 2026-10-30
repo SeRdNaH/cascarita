@@ -80,3 +80,5 @@ Donde cada componente cumple una función específica:
 **DAO (Data Access Object):** gestiona las operaciones de consulta, inserción, actualización y eliminación de información.
 
 **SQLite:** almacena la información persistente de la aplicación mediante conexiones JDBC.
+
+![Arquitectura del sistema](docs/arquitectura.png)
